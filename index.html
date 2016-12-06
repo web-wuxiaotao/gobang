@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/five.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/five.js"></script>
+	</head>
+	<body>
+		<audio src="纯音乐 - 高山流水 - 古筝版纯音乐6.mp3" controls="" id="hours" loop=""></audio>
+		<audio src="5390.wav" controls="" id="luo"></audio>
+		<div class="can">
+			<div class="box">
+				<div class="close"></div>
+			</div>
+			<canvas id="canvas" width="600" height="600"></canvas>
+			<div class="white">
+				<div class="cir">
+					<canvas id="white" width="200" height="200"></canvas>
+				</div>
+				<div class="shijian">
+					<div class="kaishi"><span>倒计时</span><b>06:00</b></div>
+					<div class="yongshi"><span>总用时</span><b>00:00</b></div>
+				</div>
+				<div class="taiji">
+					<canvas id="right" width="330" height="330"></canvas>
+				</div>
+			</div>
+			<div class="black">
+				<div class="cir">
+					<canvas id="black" width="200" height="200"></canvas>
+				</div>
+				<div class="shijian">
+					<div class="kaishi"><span>倒计时</span><b>06:00</b></div>
+					<div class="yongshi"><span>总用时</span><b>00:00</b></div>
+				</div>
+				<div class="taiji">
+					<canvas id="left" width="330" height="330"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+			<div class="battle">人人对战</div>
+			<div class="see">查看棋谱</div>
+			<div class="restart">重新开始</div>
+		</div>
+		<div class="win">
+			<div id="win">WIN</div>
+			<div id="color">黑棋</div>
+			<div id="link">
+				<a href="Javascript:;" class="more">再来一局</a>
+				<a href="Javascript:;" class="generate">生成棋谱</a>
+			</div>
+		</div>
+	</body>
+</html>
